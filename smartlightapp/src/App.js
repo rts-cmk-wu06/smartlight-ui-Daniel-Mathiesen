@@ -1,22 +1,21 @@
-import BackgroundWrapper from "./components/BackgroundWrapper"
-import MainOptions from "./components/MainOptions";
-import Navigation from "./components/Navigation";
-import Header from "./components/Header";
-import RoomBlocks from "./components/RoomBlock";
-import FlexBoxer from "./components/Flexbox";
-import { Route, Routes} from "react-router-dom";
-import Home from "./Pages/Home"
-import Room from "./Pages/Room";
+import Bg from './components/background';
+import Header from './components/header';
+import Main from './components/main';
+import Navbar from "./components/navbar";
+import Flex from './components/flexboxColReverse';
+import "./css/animations.css"
 
 function App() {
   return (
-      <div className="App">
-        <BackgroundWrapper/>
-        <Navigation/>
-    <Routes>
-            <Route exact path="/" element={<Home/>}/>
-            <Route exact path="/Room" element={<Room/>}/>
-    </Routes>
+    <div className="absolute flex justify-around w-full h-full bg-gray-300 -z-20">
+      <div style={{ width: '375px', height: '812px' }}>
+        <Bg />
+        <Flex>
+          <Main />
+          <Header />
+        <Navbar/>
+        </Flex>
+      </div>
     </div>
   );
 }

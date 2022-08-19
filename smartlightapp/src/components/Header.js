@@ -1,11 +1,21 @@
+
 const Header = () => {
-    return ( 
+  return (
+    <>
+      <div className="container flex items-center justify-between px-6 text-white h-1/5">
         <div>
-            <div className="text-white font-weight:700 text-3xl absolute top-14 left-5"><strong>Control</strong>Panel</div> 
-            <img className="absolute top-16 right-10" src={require("../assets/Ellipse 20.png")} alt="" />
-            <div className="rounded w-2 h-2 absolute top-16 right-12" style={{backgroundColor:"#FF9898"}}></div>
+          <p className="inline text-3xl font-bold">Control</p>
+          <p className="inline text-3xl">Panel</p>
         </div>
-    );
-}
- 
+        <div className="relative z-0 overflow-visible border-2 rounded-full h-14 w-14 top-3æ">
+          <div
+            className="relative left-10 z-10 h-2.5 rounded-full w-2.5"
+            style={{ backgroundColor: "#FF9898" }}
+          ></div>
+        </div>
+      </div>
+    </>
+  );
+};
+
 export default Header;
