@@ -11,7 +11,7 @@ const LightsSwiper = () => {
       spaceBetween={0}
       freeMode={true}
       modules={[FreeMode]}
-      className="mySwiper -translate-y-40 w-[375px] z-20 absolute !overflow-auto"
+      className="mySwiper !absolute -translate-y-[39rem] translate-x-4 w-[22rem] !overflow-x-auto"
     >
       <SwiperSlide>
         <div className="p-3 bg-white w-32 h-12 rounded-xl flex justify-evenly">

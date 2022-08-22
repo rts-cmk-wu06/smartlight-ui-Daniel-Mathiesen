@@ -1,3 +1,5 @@
+import Swiper from "./swiper";
+
 
 const Header = () => {
   return (
@@ -14,6 +16,8 @@ const Header = () => {
           ></div>
         </div>
       </div>
+      <Swiper/>
+
     </>
   );
 };

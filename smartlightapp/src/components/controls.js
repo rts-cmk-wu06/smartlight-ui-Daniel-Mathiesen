@@ -3,6 +3,7 @@ import { hue, turnOnOff, handleBrightness, changeColor } from "../hooks/api";
 import { currGroup } from "./button";
 import PowerBtn from "./powerBtn";
 
+
 const clrs = ["red", "green", "blue", "purple", "orange", "pink"];
 
 const colors = ["FF6663", "9EC1CF", "9EE09E", "FDFD97", "FEB144", "CC99C9"];
