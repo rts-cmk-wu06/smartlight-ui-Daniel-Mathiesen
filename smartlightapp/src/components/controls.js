@@ -101,20 +101,31 @@ const Controls = () => {
         >
           <div
             id="scn0"
-            className="w-[148px] h-14 bg-gradient-to-t from-[#d9b06b] to-[#ff818a] rounded-2xl "
-          ></div>
+            className="w-[148px] h-14 bg-gradient-to-t from-[#FF9B9B] to-[#FFBC91] rounded-2xl flex justify-center items-center gap-2  text-white"
+          >
+            <BsLightbulb size={20}/>
+        <p>Birthday</p> </div>
           <div
             id="scn1"
-            className="w-[148px] h-14 bg-gradient-to-t from-[#d9b06b] to-[#aa8efa] rounded-2xl -translate-x-20"
-          ></div>
+            className="w-[148px] h-14 bg-gradient-to-t from-[#A693EB] to-[#DA93EB] rounded-2xl -translate-x-20 flex justify-center items-center gap-2  text-white"
+          >
+            <BsLightbulb size={20}/>
+        <p>Party</p>
+          </div>
           <div
             id="scn2"
-            className="w-[148px] h-14 bg-gradient-to-t from-[#d9b06b] to-[#ff818a] rounded-2xl "
-          ></div>
+            className="w-[148px] h-14 bg-gradient-to-t from-[#93CAEB] to-[#93DDEB] rounded-2xl flex justify-center items-center gap-2  text-white"
+          >
+            <BsLightbulb size={20}/>
+        <p>Relax</p>
+          </div>
           <div
             id="scn3"
-            className="w-[148px] h-14 bg-gradient-to-t from-[#d9b06b] to-[#aa8efa] rounded-2xl -translate-x-20"
-          ></div>
+            className="w-[148px] h-14 bg-gradient-to-t from-[#89DD94] to-[#BFEC92] rounded-2xl -translate-x-20 flex justify-center items-center gap-2  text-white"
+          >
+            <BsLightbulb size={20}/>
+        <p>Fun</p>
+          </div>
         </div>
       </div>
     </div>

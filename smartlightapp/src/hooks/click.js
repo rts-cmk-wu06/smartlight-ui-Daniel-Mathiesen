@@ -8,12 +8,16 @@ export function click(e){
 
   let pwr_btn = document.getElementById("power_button");
   
+  let swiper_slider = document.getElementById("swiper");
+
+  
   if (e.target.nextElementSibling == document.getElementById("home")){
   controls.classList.remove("ani_controls");
   bg.classList.remove("selected");
   bg.classList.add("unselected");
   rooms.classList.remove("ani_rooms")
   pwr_btn.classList.add("opacityNon");
+  swiper_slider.classList.add("opacityNon")
   return;
   }
 
@@ -29,6 +33,7 @@ export function click(e){
 
   pwr_btn.classList.remove("opacityNon");
 
+  swiper_slider.classList.remove("opacityNon")
 
   controls.classList.add("ani_controls");
 
